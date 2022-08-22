@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_POST['status'])){
+if(isset($_POST['status']) && isset($_POST['personname']){
   echo "Thank you for completing the form!"}
 
 else{
